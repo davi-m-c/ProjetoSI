@@ -1,0 +1,33 @@
+*{
+  background: #fff;
+  text-align: center;
+  align-items:center;
+}
+.container .header  {
+  height: 200px;
+  font-size: 100px;
+  color:white;
+  text-align: center;
+}
+  .container form .inputContainer input {
+    background-color: darkgray;
+    padding: 10px;
+  }
+  .container form h2 {
+    height: 7px;
+  }
+  .container form button {
+    background-color: darkgray;
+    width: 80px;
+     height: 20px;
+  }
+  .container form h3 {
+    height: 7px;
+  }
+  .container form label {
+    color:white;
+    padding: 5px;
+  }
+  .container form h4 {
+    height: 3px;
+  }
