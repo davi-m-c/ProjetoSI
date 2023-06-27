@@ -1,0 +1,35 @@
+*{
+  background: #332A57;
+  text-align: center;
+  align-items:center;
+}
+.container h1 {
+    height: 200px;
+    font-size: 100px;
+    color:white;
+    text-align: center;
+  }
+  .container input {
+    background-color: darkgray;
+    padding: 10px;
+  }
+  .container h2 {
+    height: 7px;
+  }
+  .container button {
+    background-color: darkgray;
+    width: 80px;
+     height: 20px;
+  }
+  .container h3 {
+    height: 7px;
+  }
+  .container label {
+    color:white;
+    padding: 5px;
+  }
+  .container h4 {
+    height: 3px;
+  }
+
+  
