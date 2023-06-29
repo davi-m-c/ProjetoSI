@@ -1,2 +1,18 @@
-
+*{
+    background: #332A57;
+    text-align: center;
+    align-items:center;
+  }
+  .container .header  {
+    height: 200px;
+    font-size: 100px;
+    color:white;
+  }
+  .container form .inputContainer input {
+    background-color: darkgray;
+    padding: 10px;
+  }
+  .container form h1 {
+    height: 1px;
+  }
   
