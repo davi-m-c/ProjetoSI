@@ -1,6 +1,8 @@
 import { initializeApp } from "firebase/app";
+import { collection, getDocs, getFirestore } from "firebase/firestore";
 import { getAuth } from "firebase/auth";
 import { getAnalytics } from "firebase/analytics";
+import { useEffect, useState } from "react";
 // TODO: Add SDKs for Firebase products that you want to use
 // https://firebase.google.com/docs/web/setup#available-libraries
 
@@ -20,3 +22,20 @@ const firebaseConfig = {
 const app = initializeApp(firebaseConfig);
 const analytics = getAnalytics(app);
 export const auth = getAuth(app);
+
+export const App = () => {
+  
+  const[name, setName] = useState("");
+  const[ehAtletica, setehAtletica] = useState("");
+  const[users, setUsers] = useState("");
+  const db = getFirestore(firebaseConfig);
+  const userCollectionRef = collection(db,"users");
+  useEffect(()=> {
+    const getUsers = async () => {
+      const data = await getDocs(userCollectionRef)
+      setUsers(data.docs.map(doc => ({...doc.data(), id: doc.id})));
+    }
+    getUsers();
+  },[]);
+  
+};

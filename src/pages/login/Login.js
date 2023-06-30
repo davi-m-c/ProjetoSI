@@ -52,13 +52,8 @@ function Login(){
                     />
                 </div>
                 <h2></h2>
-                <input type="radio" id = "Atletica" name="OPCAO" value="op1" checked/>
-                <label for="Atletica"> Atlética </label>
-                <input type="radio" id = "Jogador" name="OPCAO" value="op1"/>
-                <label for="Jogador"> Jogador</label>
-                <h3></h3>
                 <button onClick={handleSignIn}> Entrar </button>
-                <h4></h4>
+                <h3></h3>
                 <Link to="/davi-m-c/ProjetoSI23-1.git/register"> Registrar </Link>
             </form>
         </div> 
