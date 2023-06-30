@@ -1,23 +1,28 @@
 import './Home.css';
 import logo from "../../img/football.png";
+import Navbar from '../../layout/navbar';
+
 
 function Homepage(){
     return(
         <div className="container">
-            <h1>P.<img src={logo} alt="bola" height="80" width="80"/>.D.E</h1>   
-            <input name="author" id="author" type="text" placeholder="Email"/>
-            <h2></h2>   
-            <input name="author" id="author" type="text" placeholder="Senha" />
-            <h3></h3>
-            <input type="radio" id = "Atletica" name="OPCAO" value="op1" checked/>
-            <label for="Atletica"> Atlética </label>
-            <input type="radio" id = "Jogador" name="OPCAO" value="op1"/>
-            <label for="Jogador"> Jogador</label>
-            <h4></h4>
-            <button > Entrar </button>
-            <h5></h5>
-            <button > Registrar </button>
-        </div> 
+            <Navbar />
+            <h1>
+                P.<img src={logo} alt="bola" height="80" width="80"/>.D.E
+            </h1> 
+            <div className="row">
+                <div class="card">
+                    <h2>Ranking</h2>
+                    <p>Aplicada</p>            
+                </div> 
+                <div class="card">
+                    <h2>Ultimos Resultados</h2>
+                    <p>Aplicada 1 x 0 Binaria</p>                     
+                </div> 
+            </div>
+        
+        </div>
+
                  
     );
 }

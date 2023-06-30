@@ -1,35 +1,21 @@
 *{
   background: #332A57;
-  text-align: center;
   align-items:center;
+  text-align: center;
 }
 .container h1 {
-    height: 200px;
+    height: 80px;
     font-size: 100px;
     color:white;
-    text-align: center;
   }
-  .container input {
-    background-color: darkgray;
-    padding: 10px;
+  .container .row  {
+    display: flex;
   }
-  .container h2 {
-    height: 7px;
+  .container .row  .card{
+    border-color: black;
+    border-radius:5px;
+    box-shadow: 7px 7px 13px 0 rgba(50, 50, 50, 0.22);
+    padding: 20px;
+    margin: 20px;
+    width: 200px;
   }
-  .container button {
-    background-color: darkgray;
-    width: 80px;
-     height: 20px;
-  }
-  .container h3 {
-    height: 7px;
-  }
-  .container label {
-    color:white;
-    padding: 5px;
-  }
-  .container h4 {
-    height: 3px;
-  }
-
-  

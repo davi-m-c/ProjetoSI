@@ -1,0 +1,14 @@
+.container nav {
+    height: 1px;
+    font-size: 1px;
+    text-align: center;
+    padding: 5px;
+  }
+  .container nav button{
+    font-size: 20px;
+    border-radius: 13px;
+    border-color: white;
+    border-width: 1px;
+    margin: 15px;
+    
+  }
