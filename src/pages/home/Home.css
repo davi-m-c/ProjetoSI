@@ -12,7 +12,6 @@
     display: flex;
   }
   .container .row  .card{
-    border-color: black;
     border-radius:5px;
     box-shadow: 7px 7px 13px 0 rgba(50, 50, 50, 0.22);
     padding: 20px;
