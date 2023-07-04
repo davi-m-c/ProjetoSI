@@ -13,8 +13,9 @@
   }
   .container .row  .card{
     border-radius:5px;
-    box-shadow: 7px 7px 13px 0 rgba(50, 50, 50, 0.22);
+    box-shadow: 7px 7px 13px 0 rgb(74, 5, 163);
     padding: 20px;
     margin: 20px;
     width: 200px;
+    background: rgb(130, 91, 148);
   }
