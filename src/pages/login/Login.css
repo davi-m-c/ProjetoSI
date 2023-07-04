@@ -3,12 +3,6 @@
   text-align: center;
   align-items:center;
 }
-.container .header  {
-  height: 200px;
-  font-size: 100px;
-  color:white;
-  text-align: center;
-}
   .container form .inputContainer input {
     background-color: darkgray;
     padding: 10px;

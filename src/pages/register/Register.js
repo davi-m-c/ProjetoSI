@@ -3,6 +3,7 @@ import { useState } from "react";
 import { useCreateUserWithEmailAndPassword } from "react-firebase-hooks/auth";
 import logo from "../../img/football.png";
 import { auth } from "../../services/firebaseConfig";
+import Pode from '../../layout/Pode';
 
 function Register(){
 
@@ -22,7 +23,7 @@ function Register(){
     return(
         <div className="container">
             <header className="header">
-                P.<img src={logo} alt="bola" height="80" width="80"/>.D.E
+                <Pode />
             </header> 
             <form>
                 <div className="inputContainer">
@@ -41,14 +42,9 @@ function Register(){
                         type="text"
                         placeholder="Senha"
                         onChange={(e) => setPassword(e.target.value)}
-                        />
+                    />
                 </div>
-                <h1></h1>
-                <input type="radio" id = "Atletica" name="OPCAO" value="op1" checked/>
-                <label for="Atletica"> Atlética </label>
-                <input type="radio" id = "Jogador" name="OPCAO" value="op1"/>
-                <label for="Jogador"> Jogador</label>
-                <h2></h2>
+                <body></body>
                 <button onClick={handleSignOut} > Registrar </button>
             </form>
         </div> 

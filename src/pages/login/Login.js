@@ -29,7 +29,7 @@ function Login(){
     return(
         <div className="container">
             <header className="header">
-                <Pode/>
+                <Pode />
             </header> 
             <form>
                 <div className="inputContainer">
