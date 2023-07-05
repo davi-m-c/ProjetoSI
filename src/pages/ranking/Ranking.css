@@ -1,0 +1,15 @@
+*{
+    background: #332A57;
+  }
+.container h1 {
+      margin: 50px;
+      height: 80px;
+      font-size: 50px;
+      color:white;
+}
+.container table {
+    margin: 50px;
+    height: 80px;
+    font-size: 35px;
+    color:white;
+}

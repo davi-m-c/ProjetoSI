@@ -1,0 +1,38 @@
+*{
+    background: #332A57;
+}
+.contain h1 {
+    height: 1px;
+  }
+.contain .row1 {
+    display: flex;
+  }
+.contain .row1 .card{
+    width: calc(50% - 10px);
+    border-radius:5px;
+    box-shadow: 7px 7px 13px 0 rgb(74, 5, 163);
+    padding: 10px;
+    margin: 20px;
+    background: rgb(123, 86, 139);
+    color: white;
+    transition: transform 0.3s ease;
+  }
+  .contain .row1 .card:hover {
+    transform: translate(3px, -3px);
+  }
+  .contain .row2 {
+    display: flex;
+  }
+.contain .row2 .card{
+    width: calc(40% - 10px);
+    border-radius:5px;
+    box-shadow: 7px 7px 13px 0 rgb(74, 5, 163);
+    padding: 10px;
+    margin: 20px;
+    background: rgb(123, 86, 139);
+    color: white;
+    transition: transform 0.3s ease;
+  }
+  .contain .row2 .card:hover {
+    transform: translate(3px, -3px);
+  }

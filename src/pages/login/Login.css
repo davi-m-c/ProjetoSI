@@ -3,6 +3,9 @@
   text-align: center;
   align-items:center;
 }
+.container header {
+  margin:40px;
+}
   .container form .inputContainer input {
     background-color: darkgray;
     padding: 10px;

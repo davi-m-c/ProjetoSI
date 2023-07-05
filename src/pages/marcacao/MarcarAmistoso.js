@@ -1,12 +1,13 @@
-import Navbar from "../../layout/navbar";
+import React from "react";
+import GameForm from "../../layout/gameform";
 
-function Marcar(){
-    return(
-        <div className="container">
-            <Navbar />   
-        
-        </div>       
-    );
-}
+const Marcar = () => {
+  return (
+    <div>
+      <h1>Minha Aplicação</h1>
+      <GameForm />
+    </div>
+  );
+};
 
 export default Marcar;

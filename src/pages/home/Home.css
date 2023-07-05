@@ -8,14 +8,19 @@
     font-size: 100px;
     color:white;
   }
+  .container h2 {
+    margin:100px;
+    height: 80px;
+    font-size: 22px;
+  }
   .container .row  {
     display: flex;
   }
-  .container .row  .card{
+  .container .row .card{
     border-radius:5px;
     box-shadow: 7px 7px 13px 0 rgb(74, 5, 163);
+    margin:10px;
     padding: 20px;
-    margin: 20px;
     width: 200px;
     background: rgb(130, 91, 148);
     color: white;

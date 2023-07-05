@@ -1,6 +1,6 @@
 import './Login.css';
 import { useState } from "react";
-import logo from "../../img/football.png";
+import Navbar from '../../layout/navbar';
 import {Link} from "react-router-dom";
 import Pode from "../../layout/Pode";
 import { useSignInWithEmailAndPassword } from "react-firebase-hooks/auth";
@@ -28,6 +28,7 @@ function Login(){
 
     return(
         <div className="container">
+            <Navbar/>
             <header className="header">
                 <Pode />
             </header> 
