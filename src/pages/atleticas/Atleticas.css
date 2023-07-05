@@ -24,7 +24,7 @@
     display: flex;
   }
 .contain .row2 .card{
-    width: calc(40% - 10px);
+    width: calc(50% - 10px);
     border-radius:5px;
     box-shadow: 7px 7px 13px 0 rgb(74, 5, 163);
     padding: 10px;

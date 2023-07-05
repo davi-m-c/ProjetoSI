@@ -7,7 +7,7 @@ function Navbar(){
             <nav>
                 <Link to="/davi-m-c/ProjetoSI23-1.git"> <button>Home</button> </Link>
                 <Link to="/davi-m-c/ProjetoSI23-1.git/ranking"> <button>Ranking</button> </Link>
-                <Link to="/davi-m-c/ProjetoSI23-1.git/login"> <button>Login</button> </Link>
+                <Link to="/davi-m-c/ProjetoSI23-1.git/marcar"> <button>Marcar</button> </Link>
                 <Link to="/davi-m-c/ProjetoSI23-1.git/atleticas"> <button>Atleticas</button> </Link>
             </nav>
         </div>

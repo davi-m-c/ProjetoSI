@@ -14,6 +14,8 @@ import React from 'react';
             
             <h2>
             <Link to="/davi-m-c/ProjetoSI23-1.git/register"> Cadastro </Link>
+            <h3><Link to="/davi-m-c/ProjetoSI23-1.git/login"> Login </Link></h3>
+            
             </h2>
             <div className="row">
                 <div class="card">
@@ -32,7 +34,7 @@ import React from 'react';
                     </p>    
                 </div> 
                 <div class="card">
-                    <h3>Ultimos Resultados</h3>
+                    <h4>Ultimos Resultados</h4>
                     <p>
                         Aplicada 2 x 1 Binaria
                         Aplicada 4 x 1 Milionária
